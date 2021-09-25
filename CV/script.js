@@ -1,9 +1,9 @@
         /* navbar_hidden */
-let lastScrollTop = 0;  /*init*/
-navbar = document.getElementsById('navbar');
+let lastScrollTop = 0;  
+navbar = document.getElementById('navbar');
 
 window.addEventListener('scroll', function(){
-    const scrollTop = window.pageTOffset || 
+    const scrollTop = window.pageTOfset || 
     this.document.documentElement.scrollTop;
 
     if (scrollTop > lastScrollTop){
@@ -13,8 +13,7 @@ window.addEventListener('scroll', function(){
     }
     lastScrollTop = scrollTop;
 
-})
-alert('t')
+});
 
 // typed 
 var typed = new Typed('.typed', {

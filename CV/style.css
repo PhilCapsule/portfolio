@@ -186,6 +186,13 @@ header .button:hover a {
     border:  1px solid #35B4D5;
     width: 170px;
     margin: 0 4%;
+    border-radius: 5px;
 }
 
+.counter-value {
+    font-size: 1.7em;
+}
+.data-span{
+    font-size: 1.8em;
+}
 

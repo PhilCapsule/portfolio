@@ -135,3 +135,57 @@ header .button:hover a {
     letter-spacing: 0.1em;
 }
 
+
+/*Formation 2nd volet ===============================  */ 
+
+#formation {
+    position: relative;
+    background-color: hsl(0, 83%, 84%) ;
+    top: -200px;
+    float: right;
+    margin-right: 5%;
+    padding: 110px 0 60px 50px;
+    width: 45%;
+    max-width: 660px;
+    background: linear-gradient(90deg,rgba(105,223,221,0.51) 0%, rgba(226,226,0,0.57) 40%, rgba(236,238,236,0.49) 99%);
+    clip-path: polygon(0 20%, 100% 0%, 84% 100%, 10% 91%);
+}
+
+/* Sous_Tr*/
+#formation h3 {
+    padding-top: 80px;
+}
+
+#formation h4{
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    padding-bottom: 10px;
+    color: #005978;
+    text-shadow: -1px -1px 1px #35B4D5;
+}
+
+
+#autodidacte {
+    padding: 20px;
+}
+
+#fcc {
+    padding: 50px 0 0 9%;
+}
+
+#occ {
+    padding: 50px 0 0 18%;
+}
+
+.counter {
+    display: flex;
+    text-align: center;
+}
+
+.data {
+    border:  1px solid #35B4D5;
+    width: 170px;
+    margin: 0 4%;
+}
+
+

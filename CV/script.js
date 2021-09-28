@@ -65,7 +65,7 @@ $(window).scroll(function() {
 
 //AOS 
 
-  AOS.init();
+AOS.init();
 
 
 

@@ -31,7 +31,7 @@ var typed = new Typed('.typed', {
   });
   
 
-  // Compt. Live
+  // Compt.1.52.18Pie1/2
 
 let compteur = 0;
 
@@ -58,7 +58,7 @@ $(window).scroll(function() {
                 }
             });
         });
-        
+
         compteur = 1;
     }
 })

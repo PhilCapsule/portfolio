@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Josefin+Sans:wght@100&family=Rambla&display=swap');
-
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"></link>
 
 html {
     scroll-behavior: smooth;
@@ -239,4 +239,36 @@ header .button:hover a {
     position: relative;
 }
 
+            /*fleche*/
+.timeline:nth-child(1):after{
+    content: '∆';
+    color: #ff4e50;
+    position: absolute;
+    top: -16px;
+    right: -6px;
+    box-sizing: content-box !important;
+}
+
+
+/*block text_1 */
+.timeline:nth-child(1) {
+    border-bottom: 3px solid;
+    border-top: none;
+    width: 80%;
+    
+}
+
+.timeline:nth-child(2){
+    border-top: none;
+}
+
+.timeline:nth-child(odd){
+    border-right: 3px solid;
+    padding-left: 0;
+}
+
+.timeline:nth-child(even) {
+    border-left: 3px solid;
+    padding-right: 0;
+}
 
